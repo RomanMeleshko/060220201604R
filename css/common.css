@@ -1,0 +1,64 @@
+/*  подключаем шрифты */
+@font-face {
+    font-family: Lato-Light;
+    src: url(../fonts/9625.ttf);
+}
+* {
+    font-family: Lato-Light;
+}
+.page-comments__service {
+    padding-left: 28%;
+    background: #ffca60;
+    margin-top: -20px;
+    border-radius: 0 0 0 100px;
+}
+
+.foto {
+    z-index: 100;
+    position: absolute;
+}
+
+.comment-window {
+    background: lavender;
+    position: relative;
+    text-align: left;
+    border: 1px solid #9ccfe6;
+}
+.comment-window:before,
+.comment-window:after {
+    content: "";
+    width: 11px;
+    height: 11px;
+    position: absolute;
+    border: solid transparent;
+    bottom: 40px;
+}
+.comment-window:before {
+    border-left-color: #9ccfe6;
+    border-bottom-color: #9ccfe6;
+    border-width: 7px;
+}
+.comment-window:after {
+    border-left-color: lavender;
+    border-bottom-color: lavender;
+    border-width: 6px;
+    margin-top: 5px;
+    margin-left: 1px;
+}
+
+
+.text-bold {
+    font-size: 22px;
+}
+.underline {
+    text-decoration: underline;
+}
+.progress {
+    background: #4ac3ff;
+}
+.text-size-22 {
+    font-size: 22px;
+}
+button:focus {
+    outline: none !important;
+}
