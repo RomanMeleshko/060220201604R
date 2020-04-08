@@ -46,7 +46,7 @@ $( document ).ready(function() {
                 class: "text-dark font-weight-bold",
                 text: "Самуил",
                 append: $("<span/>", {
-                    class: "pl-3 text-muted",
+                    class: "pl-3 data-text-info",
                     text: gettingData.data() + " " + gettingData.month() + " " + gettingData.year()
                 })
 

@@ -3,14 +3,38 @@
     font-family: Lato-Light;
     src: url(../fonts/9625.ttf);
 }
-* {
-    font-family: Lato-Light;
+/** {*/
+/*    font-family: Lato-Light;*/
+/*}*/
+
+h3 {
+
+}
+.page-comments__name > h3 {
+    width: 146px;
+    height: 20px;
+    left: 151px;
+    top: 21px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+}
+.page-comments__name > p {
+    font-size: 12px;
+    line-height: 20px;
+
 }
 .page-comments__service {
     padding-left: 28%;
-    background: #ffca60;
+    background: #FFFBC8;
     margin-top: -20px;
-    border-radius: 0 0 0 100px;
+    border-radius: 0 10px 10px 100px;
+    box-sizing: border-box;
+}
+.page-comments__service > p {
+    font-size: 14px;
 }
 
 .foto {
@@ -18,8 +42,65 @@
     position: absolute;
 }
 
+.service {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+}
+
+.page-comments__all > span {
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+hr {
+    border: 1px solid #DADADA;
+    margin-top: 12px !important;
+}
+
+.page-comments__info span{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.page-comments__info .icon-like, .page-comments__info .icon-comment {
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.page-comments__info a {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 16px;
+}
+
+.page-comments__progress-number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.page-comments__progress__text {
+    font-style: normal;
+    font-weight: normal;
+    line-height: 16px;
+}
+
+.page-comments__block-ask > .row {
+    background: #F2F2F2;
+}
+
+.page-comments__block-ask button {
+    background: #FDD639;
+}
+
 .comment-window {
-    background: lavender;
+    background: #F2FBFF;
     position: relative;
     text-align: left;
     border: 1px solid #9ccfe6;
@@ -39,13 +120,17 @@
     border-width: 7px;
 }
 .comment-window:after {
-    border-left-color: lavender;
-    border-bottom-color: lavender;
+    border-left-color: #F2FBFF;
+    border-bottom-color: #F2FBFF;
     border-width: 6px;
     margin-top: 5px;
     margin-left: 1px;
 }
 
+.data-text-info {
+    font-size: 12px;
+    color: #b3afac;
+}
 
 .text-bold {
     font-size: 22px;
@@ -56,9 +141,7 @@
 .progress {
     background: #4ac3ff;
 }
-.text-size-22 {
-    font-size: 22px;
-}
+
 button:focus {
     outline: none !important;
 }
