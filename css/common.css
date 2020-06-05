@@ -7,8 +7,10 @@
 /*    font-family: Lato-Light;*/
 /*}*/
 
-h3 {
-
+.container-fluid {
+    max-width: 720px;
+    display: flex;
+    justify-content: center;
 }
 .page-comments__name > h3 {
     width: 146px;
