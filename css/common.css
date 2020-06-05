@@ -27,10 +27,10 @@ h3 {
 
 }
 .page-comments__service {
-    padding-left: 28%;
+    padding-left: 27%;
     background: #FFFBC8;
     margin-top: -20px;
-    border-radius: 0 10px 10px 100px;
+    border-radius: 0 5px 5px 0px;
     box-sizing: border-box;
 }
 .page-comments__service > p {
@@ -103,33 +103,40 @@ hr {
     background: #F2FBFF;
     position: relative;
     text-align: left;
-    border: 1px solid #9ccfe6;
+    border: 1px solid #C4CBCF;
+    box-shadow: 0px 4px 10px rgba(128, 128, 128, 0.1);
+
 }
 .comment-window:before,
 .comment-window:after {
     content: "";
-    width: 11px;
-    height: 11px;
+    width: 7px;
+    height: 7px;
     position: absolute;
     border: solid transparent;
     bottom: 40px;
 }
 .comment-window:before {
-    border-left-color: #9ccfe6;
-    border-bottom-color: #9ccfe6;
-    border-width: 7px;
+    border-left-color: #C4CBCF;
+    border-bottom-color: #C4CBCF;
+    border-width: 5px;
+    margin-left: 11px;
 }
 .comment-window:after {
     border-left-color: #F2FBFF;
     border-bottom-color: #F2FBFF;
-    border-width: 6px;
+    border-width: 4px;
     margin-top: 5px;
-    margin-left: 1px;
+    margin-left: 12px;
 }
 
 .data-text-info {
+    color: gray;
     font-size: 12px;
-    color: #b3afac;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 15px;
 }
 
 .text-bold {
