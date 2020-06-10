@@ -3,8 +3,8 @@ $( document ).ready(function() {
     var button = $("#button");
     var data = new Date();
 
-    var arrNameMonth = ["январь", "февраль", "март", "апрель", "май", "июнь", "июль", "август", "сентябрь",
-                        "октябрь", "ноябрь", "декабрь"];
+    var arrNameMonth = ["января", "февраля", "марта", "апреля", "мая", "июня", "июля", "августа", "сентября",
+                        "октября", "ноября", "декабря"];
 
     var gettingData = {
         data() {
@@ -52,7 +52,7 @@ $( document ).ready(function() {
 
             }),
             append: $("<div/>", {
-                class: "comment-window pl-3 p-2 mt-3",
+                class: "comment-window mt-3",
                 append: $("<p/>", {
                     text: textClient,
                     class: "m-0",

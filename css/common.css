@@ -3,6 +3,10 @@
     font-family: Lato-Light;
     src: url(../fonts/9625.ttf);
 }
+@font-face {
+    font-family: PT Sans;
+    src: url(../fonts/2221.ttf);
+}
 /** {*/
 /*    font-family: Lato-Light;*/
 /*}*/
@@ -29,7 +33,7 @@
 
 }
 .page-comments__service {
-    padding-left: 27%;
+    padding-left: 18%;
     background: #FFFBC8;
     margin-top: -20px;
     border-radius: 0 5px 5px 0px;
@@ -92,16 +96,30 @@ hr {
     font-weight: normal;
     line-height: 16px;
 }
-
+.page-comments__block-ask {
+}
 .page-comments__block-ask > .row {
     background: #F2F2F2;
+    padding-bottom: 34px;
 }
 
 .page-comments__block-ask button {
     background: #FDD639;
+    width: 281px;
+    height: 43px;
+    font-family: PT Sans;
+
+    border-radius: 23px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+}
+.page-comments__block-button {
 }
 
+
 .comment-window {
+    padding: 20px 24px;
     background: #F2FBFF;
     position: relative;
     text-align: left;
@@ -116,7 +134,7 @@ hr {
     height: 7px;
     position: absolute;
     border: solid transparent;
-    bottom: 40px;
+    top: -11px;
 }
 .comment-window:before {
     border-left-color: #C4CBCF;
@@ -128,7 +146,7 @@ hr {
     border-left-color: #F2FBFF;
     border-bottom-color: #F2FBFF;
     border-width: 4px;
-    margin-top: 5px;
+    margin-top: 3px;
     margin-left: 12px;
 }
 
@@ -149,6 +167,22 @@ hr {
 }
 .progress {
     background: #4ac3ff;
+}
+.form-group {
+    padding: 28px 21px !important;
+}
+.form-group > textarea {
+    height: 63px !important;
+    border-radius: 1px !important;
+}
+#textarea {
+    border: 1px solid #000000;
+}
+#textarea:invalid:not(:placeholder-shown) {
+    border: 1px solid red;
+}
+#textarea:valid:not(:placeholder-shown) {
+    border: 1px solid green;
 }
 
 button:focus {

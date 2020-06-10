@@ -31,12 +31,12 @@
             <div class="page-comments p-1">
                 <div class="page-comments__block-manager mr-0">
                     <div class="row justify-content-end">
-                        <div class="col-4">
+                        <div class="col-3">
                             <div class="page-comments__user pt-2">
                                 <img class="foto rounded-circle" style="" src="images/Слой%2057%201.png" alt="foto-person">
                             </div>
                         </div>
-                        <div class="col-8 mt-2 align-self-end">
+                        <div class="col-9 mt-2 align-self-end">
                             <div class="page-comments__name">
                                 <h3 class="m-0">Вероника Ростова</h3>
                                 <p class="text-muted">Менеджер по продажам</p>
@@ -53,14 +53,14 @@
                 </div>
                 <div class="page-comments__progress pt-3">
                     <div class="row justify-content-end">
-                        <div class="col-8">
+                        <div class="col-9">
                            <div class="row pb-2 ml-0 mr-0 justify-content-end" style="border-bottom: 1px solid #DADADA">
                                <div class="col-4 text-center">
                                     <span class="service">Услуг</span>
                                </div>
                            </div>
                         </div>
-                        <div class="col-8">
+                        <div class="col-9">
                             <div class="row ml-0 mt-3 mr-0" style="border-left: 1px solid rgba(51, 51, 51, 0.2);">
                                 <div class="col-8 pl-0">
                                     <div class="p-1 rounded-right" style="background: #B1E19B; width: 100%">
@@ -90,7 +90,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-8">
+                        <div class="col-9">
                             <div class="row mt-3 ml-0 mr-0" style="border-top: 1px solid #DADADA">
                                 <div class="col-8 pt-3 pl-0 page-comments__all">
                                     <span>Всего</span>
@@ -125,13 +125,15 @@
                 </div>
             </div>
             <div class="page-comments__block-ask">
-                <div class="row p-1">
-                    <div class="col-12 mt-3 form-group">
-                        <textarea id="textarea" class="form-control w-100 p-3 border-dark" type="text"></textarea>
-                    </div>
-                    <div class="col-12 mt-4 mb-4 text-center">
-                        <button id="button" class="rounded-pill p-2 w-50 border-0"><b>Написать консультанту</b></button>
-                    </div>
+                <div class="row">
+                    <form class="w-100">
+                        <div class="col-12 p-0 m-0 form-group">
+                            <textarea id="textarea" class="form-control w-100 p-3" type="text" placeholder=" " required></textarea>
+                        </div>
+                        <div class="col-12 text-center">
+                            <button type="submit" id="button" class="border-0">Написать консультанту</button>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
